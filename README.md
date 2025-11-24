@@ -1,57 +1,75 @@
 # TCGBase
-<p> A multi-TCG collection tracking web application designed to help collectors manage and monitor their card collections across different trading card games. <br> The project starts with Pokémon TCG as the primary implementation and is fully designed to scale into Magic: The Gathering, Yu-Gi-Oh!, Lorcana, and additional TCGs in the future. </p>
-<hr>
+
+A multi-TCG collection tracking web application designed to help collectors manage and monitor their card collections across different trading card games.  
+The project starts with **Pokémon TCG** as the primary implementation and is fully designed to scale into **Magic: The Gathering**, **Yu-Gi-Oh!**, **Lorcana**, and additional TCGs in the future.
+
+---
+
 ## Project Status
-*Early Development Phase*
-<p>The repository has just been created. No production code has been committed yet.</p>
-<p>Current Progress:</p>
-<li>
-  <ul>Functional Design (FD): Completed;</ul>
-  <ul>MoSCoW-analysis: Completed;</ul>
-  <ul>UI Wireframes: Completed;</ul>
-  <ul>Technical Design (TD): Completed; </ul>
-  <ul>Initial Project Setup: In Progress;</ul>
-  <ul>API Structure Implementation: In Progress;</ul>
-  <ul>First Prototype: In Progress.</ul>
-</li>
+
+**_Early Development Phase_**
+
+The repository has just been created. No production code has been committed yet.
+
+### Current Progress
+- Functional Design (FD): **Completed**
+- MoSCoW-analysis: **Completed**
+- UI Wireframes: **Completed**
+- Technical Design (TD): **Completed**
+- Initial Project Setup: **In Progress**
+- API Structure Implementation: **In Progress**
+- First Prototype: **In Progress**
+
+---
+
 ## Project Goals
-<p>This application aims to provide collectors with:</p>
-<li>
-  <ul>A structured database of TCG sets and cards;</ul>
-  <ul>Tools to track owned cards and completion percentages;</ul>
-  <ul>Support for multiple TCGs and multilingual card variants;</ul>
-  <ul>Card detail tracking including variants (holo, reverse, misprint, staff, etc.) and grading (PSA, BGS, CGC…);</ul>
-  <ul>A personal dashboard showing only the TCGs and sets you actually own cards in;</ul>
-  <ul>Expandability for future TCG integrations.</ul>
-</li>
+
+This application aims to provide collectors with:
+
+- A structured database of TCG sets and cards
+- Tools to track owned cards and completion percentages
+- Support for multiple TCGs and multilingual card variants
+- Card detail tracking including variants (holo, reverse, misprint, staff, etc.) and grading (PSA, BGS, CGC…)
+- A personal dashboard showing only the TCGs and sets you actually own cards in
+- Expandability for future TCG integrations
+
+---
+
 ## Planned Tech Stack
-**Front-end**
-<li>
-  <ul>HTML5</ul>
-  <ul>CSS3</ul>
-  <ul>JavaScript</ul>
-</li>
-**Back-end**
-<li>
-  <ul>PHP</ul>
-  <ul>RESTful API</ul>
-</li>
-**Database**
-<li>
-  <ul>MySQL</ul>
-</li>
-**Hosting & Version Control**
-<li>
-  <ul>XAMPP for development</ul>
-  <ul>GitHub for Version Control</ul>
-</li>
+
+### Front-end
+- HTML5
+- CSS3
+- JavaScript
+
+### Back-end
+- PHP
+- RESTful API
+
+### Database
+- MySQL
+
+### Hosting & Version Control
+- XAMPP for development
+- GitHub for version control
+
+---
+
 ## Documentation
-<p>Project Documentation is underway:</p>
-<li>
-  <ul>Functional Design: Completed</ul>
-  <ul>Technical Design: Completed</ul>
-    <ul>API Specification: In Progress</ul>
-</li>
-<p>All documentation will be under */Documentation*</p>
+
+Project documentation is underway:
+
+- Functional Design: **Completed**
+- Technical Design: **Completed**
+- API Specification: **In Progress**
+
+All documentation will be placed under the **`/Documentation`** directory.
+
+---
+
 ## Contribution
-<p>At the moment, this is a solo project for my school and portfolio. <br> Contribution guidelines will be added once the project foundation is stable.</p>
+
+This is currently a **solo project** for school and portfolio purposes.  
+Contribution guidelines will be added once the project foundation is stable.
+
+---
