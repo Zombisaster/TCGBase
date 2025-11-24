@@ -1,0 +1,84 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+/* Header and Navbar */
+header {
+    background-color: #2c3e50; /* dark blue-gray */
+    padding: 15px 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ecf0f1; /* VERY light gray */
+    text-decoration: none;
+}
+
+/* Navigation links */
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+.navbar .nav-links li a:hover {
+    color: #1abc9c; /* turquoise accent on hover */
+}
+
+/* Hamburger button */
+.hamburger {
+    display: none;
+    font-size: 1.8rem;
+    background: none;
+    border: none;
+    color: #ecf0f1;
+    cursor: pointer;
+}
+
+/* Mobile styles */
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .navbar .nav-links {
+        flex-direction: column;
+        gap: 10px;
+        display: none; /* hidden by default on mobile */
+        width: 100%;
+    }
+
+    .navbar .nav-links.show {
+        display: flex;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
